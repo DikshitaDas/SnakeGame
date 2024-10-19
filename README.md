@@ -1,76 +1,55 @@
-# Snake Game in Java
+# 🐍 Snake Game
 
-This project implements the classic Snake game using Java Swing for the graphical user interface and basic game logic.
+A classic **Snake Game** built with **Java**, where players control a growing snake to eat food and avoid collisions, designed with simple yet engaging gameplay.
 
-## Overview
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?&style=flat&logo=java&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-Framework-orange?style=flat)
 
-The Snake Game consists of a snake that moves around the board, eating food to grow longer. The game ends if the snake collides with itself or the board boundaries.
+<img src="https://github.com/DikshitaDas/SnakeGame/blob/main/game%20board/Screenshot%202024-10-19%20131911.png" width="800">
 
-## Features
 
-- **Snake Movement:** Use arrow keys to control the snake's direction (up, down, left, right).
-- **Food Generation:** Randomly generates food on the board for the snake to eat.
-- **Score Tracking:** Displays the current score (length of the snake) during gameplay.
-- **Game Over Condition:** Ends the game if the snake collides with itself or the board boundaries.
+## ℹ️ About
 
-## Technologies Used
+A nostalgic recreation of the **Snake Game**, developed using **Java** and **Swing**, where you control the snake's movement, aiming to eat the food while avoiding collisions with the walls or the snake's body.
 
-- **Java:** Core programming language.
-- **Java Swing:** For creating the graphical user interface.
-- **Random:** To generate food at random positions on the board.
+## 🚀 Features
 
-## Getting Started
+- 🕹️ **Classic Snake Game**: Move the snake to eat food and grow longer.
+- 🎨 **Graphical User Interface (GUI)**: Simple and user-friendly design using **Java Swing**.
+- ⏱️ **Dynamic gameplay**: The snake speeds up as it grows.
+- 💥 **Collision detection**: Game ends when the snake collides with itself or the walls.
 
-1. **Clone the repository:**
+## 📦 Installation
 
-   ```bash
-   git clone https://github.com/DikshitaDas/SnakeGame.git
-   cd SnakeGame
-   ```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/DikshitaDas/SnakeGame.git
+cd SnakeGame
+```
 
-2. **Compile and run:**
+### 2. Compile and Run the Game
+```bash
+javac SnakeGame.java
+java SnakeGame
+```
 
-   Compile the project using a Java compiler. You can use your preferred IDE or command-line tools.
+## 🛠 Technologies Used
 
-   ```bash
-   javac *.java
-   ```
+| Technology  | Logo |
+|-------------|------|
+| **Java**    | ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?&style=flat&logo=java&logoColor=white) |
+| **Swing**   | ![Swing](https://img.shields.io/badge/Swing-Framework-orange?style=flat) |
 
-   Run the game:
+## 🤝 Contributing
 
-   ```bash
-   java App
-   ```
+Contributions are welcome! Here's how you can contribute:
 
-3. **Game Controls:**
+1. Fork the repository 🍴
+2. Create a new branch (`git checkout -b feature/amazing-feature`) 🚧
+3. Commit your changes (`git commit -m 'Add a new feature'`) 📝
+4. Push to the branch (`git push origin feature/amazing-feature`) 📤
+5. Open a pull request 📬
 
-   - Use the **arrow keys** to navigate the snake:
-     - Up arrow: Move up
-     - Down arrow: Move down
-     - Left arrow: Move left
-     - Right arrow: Move right
+## 📄 License
 
-4. **Gameplay:**
-
-   - The snake starts with a default length and moves at a constant speed.
-   - Eat the red food blocks to grow longer.
-   - Avoid colliding with the snake's own body or the edges of the board.
-   - The game ends when the snake collides, and your final score is displayed.
-
-5. **Customization:**
-
-   - Adjust the board size and game speed by modifying parameters in the `SnakeGame` class constructor (`boardWidth`, `boardHeight`, `Timer` delay).
-
-## Future Enhancements
-
-- Implement levels with increasing difficulty.
-- Add sound effects and background music.
-- Enable two-player mode using networking.
-
-## Contributing
-
-Contributions are welcome! Fork the repository, make improvements, and submit pull requests.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details. 📃
